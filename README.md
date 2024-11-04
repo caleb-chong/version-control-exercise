@@ -26,6 +26,13 @@ Create a ".env" file and add contents like the following (using your own AlphaVa
 ALPHAVANTAGE_API_KEY = "..."
 ```
 
+For email functionalities, add:
+```sh
+MAILGUN_SENDER_ADDRESS = "..."
+MAILGUN_DOMAIN = "..."
+MAILGUN_API_KEY = "..."
+```
+
 ## Usage
 
 Run the example script:
