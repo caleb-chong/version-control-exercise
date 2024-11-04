@@ -1,5 +1,6 @@
 # This is the requirements file.
 
+python-dotenv
 requests
 pandas
 plotly
