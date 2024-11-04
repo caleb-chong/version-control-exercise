@@ -44,3 +44,8 @@ Run the stocks report:
 ```sh
 python app/stocks.py
 ```
+
+Run the email program:
+```sh
+python app/email.py
+```
