@@ -1,6 +1,4 @@
-# this is the app/unemployment.py file...
-
-# LOCAL DEV (ENV VARS)
+# Unemployment File
 
 import os
 from dotenv import load_dotenv
