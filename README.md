@@ -9,7 +9,7 @@ conda create -n reports-env python=3.12
 ```
 
 Activate the environment:
-```
+```sh
 conda activate reports-env
 ```
 
