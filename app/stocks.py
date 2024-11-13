@@ -62,3 +62,7 @@ if __name__ == "__main__":
                 title=f"Stock Prices ({symbol})",
             labels= {"x": "Date", "y": "Stock Price ($)"})
     fig.show()
+
+    # Send email
+    # latest_price = first_row["adjusted_close"]
+    # send_email_with_sendgrid(subject="Stocks Email")
