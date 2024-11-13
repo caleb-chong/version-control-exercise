@@ -6,10 +6,7 @@ from pprint import pprint
 from statistics import mean
 import requests
 from dotenv import load_dotenv
-
-load_dotenv() # Searches the ".env" file for environment variables.
-
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
+from app.alpha_service import API_KEY
 
 def fetch_unemployment_json():
 
