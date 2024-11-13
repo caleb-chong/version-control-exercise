@@ -2,6 +2,7 @@
 
 import os
 from dotenv import load_dotenv
+from pandas import read_csv
 
 load_dotenv() # Searches the ".env" file for environment variables.
 
@@ -14,9 +15,6 @@ print("SYMBOL:", symbol)
 
 
 # Fetch the data
-
-from pandas import read_csv
-
 request_url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol={symbol}&apikey={API_KEY}&outputsize=full&datatype=csv"
 print(request_url)
 

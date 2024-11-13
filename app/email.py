@@ -4,15 +4,13 @@
 
 import os
 from dotenv import load_dotenv
+import requests
 
 load_dotenv() # Searches the ".env" file for environment variables.
 
 MAILGUN_SENDER_ADDRESS = os.getenv("MAILGUN_SENDER_ADDRESS", default="demo")
 MAILGUN_DOMAIN = os.getenv("MAILGUN_DOMAIN", default="demo")
 MAILGUN_API_KEY = os.getenv("MAILGUN_API_KEY", default="demo")
-
-
-import requests
 
 def send_mail_with_mailgun(recipient_address=MAILGUN_SENDER_ADDRESS,
                            subject="[Shopping Cart App] Testing 123",
