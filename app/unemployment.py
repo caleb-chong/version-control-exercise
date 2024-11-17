@@ -4,9 +4,8 @@ import os
 import json
 from pprint import pprint
 from statistics import mean
-import requests
 from dotenv import load_dotenv
-from app.alpha_service import API_KEY
+from alpha_service import API_KEY
 
 def fetch_unemployment_json():
 

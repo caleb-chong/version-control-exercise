@@ -3,5 +3,5 @@
 python-dotenv
 requests
 pandas
-plotly
+plotly.express
 pytest
