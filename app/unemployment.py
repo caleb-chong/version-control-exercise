@@ -1,12 +1,10 @@
 # Unemployment File
 
-import os
-import json
 import requests
 from pprint import pprint
 from statistics import mean
-from dotenv import load_dotenv
-from alpha_service import API_KEY
+from app.alpha_service import API_KEY
+from plotly.express import line
 
 def fetch_unemployment_json():
 

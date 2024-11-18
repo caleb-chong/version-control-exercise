@@ -56,5 +56,5 @@ python -m app.stocks
 
 Run the email program:
 ```sh
-python app/email.py
+python -m app.email
 ```
