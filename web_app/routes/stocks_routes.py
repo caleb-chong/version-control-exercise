@@ -62,7 +62,9 @@ def stocks_api():
     try:
         df = fetch_stocks_csv(symbol=symbol)
         data = df.to_dict("records")
+        flash("Fetched Real-time Market Data!", "success")
         return {"symbol": symbol, "data": data }
     except Exception as err:
         print('OOPS', err)
-        return {"message":"Market Data Error. Please try again."}, 404
+        #return {"message":"Market Data Error. Please try again."}, 404
+        flash("Market Data Error. Please check your symbol and try again!", "danger")
