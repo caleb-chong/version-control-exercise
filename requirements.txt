@@ -6,3 +6,6 @@ pandas
 plotly
 pytest
 flask
+
+# Used for web app
+gunicorn
