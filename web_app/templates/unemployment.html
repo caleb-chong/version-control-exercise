@@ -1,0 +1,15 @@
+{% extends "bootstrap_5_layout.html" %}
+{% set active_page = "unemployment" %}
+
+{% block content %}
+    <h2>Unemployment Dashboard</h2>
+
+    <p class="lead">
+        Latest Unemployment Rate: {{ latest_rate }}% on {{ latest_date }}. (I came up with this part!)
+    </p>
+
+    <p class="lead">This is the unemployment dashboard. Unfortunately, I don't have the HTML skills to construct a visualization</p>
+
+    <p class="lead">That being said, the dashboard will work in Git Bash/Terminal. The code for the command line to open a browser tab for visualizations has been commented out as it made it difficult for the web app to reach the unemployment page. Feel free to comment it back in on unemployment_routes.py, lines 39/40.</p>
+
+{% endblock %}
